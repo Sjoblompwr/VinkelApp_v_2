@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+
+        <TextView
+            android:id="@+id/height"
+            android:layout_width="113dp"
+            android:layout_height="51dp"
+            android:text="Höjd" />
+
+        <TextView
+            android:id="@+id/base"
+            android:layout_width="113dp"
+            android:layout_height="51dp"
+            android:text="Bas" />
+
+        <TextView
+            android:id="@+id/diagonal"
+            android:layout_width="113dp"
+            android:layout_height="51dp"
+            android:text="diagonal" />
+
+        <TextView
+            android:id="@+id/angle"
+            android:layout_width="113dp"
+            android:layout_height="51dp"
+            android:text="vinkel" />
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
